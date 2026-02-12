@@ -14,7 +14,7 @@
     --md-sys-color-outline: #79747E;
     --md-sys-color-surface-variant: #E7E0EC;
     --md-sys-color-on-surface-variant: #49454F;
-    /* Elevation shadow */
+
     --md-sys-elevation-level3: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -42,7 +42,7 @@ header {
 }
 
 h1 {
-    font-size: 36px; /* Material Display Small/Medium size */
+    font-size: 36px;
     font-weight: 400;
     margin: 0;
     color: var(--md-sys-color-on-background);
@@ -63,28 +63,30 @@ h1 {
 
 .card {
     background-color: var(--md-sys-color-surface);
-    border-radius: 20px; /* MD3 Corner Radius */
+    border-radius: 20px;
     padding: 24px;
     margin-bottom: 24px;
-    box-shadow: var(--md-sys-elevation-level3); /* Approx MD3 elevation 3 */
+    box-shadow: var(--md-sys-elevation-level3);
 }
 
 .card.highlight {
     background-color: var(--md-sys-color-secondary-container);
     color: var(--md-sys-color-on-secondary-container);
-    box-shadow: none; /* Flat highlight card */
+    box-shadow: none;
 }
 
 h2 {
-    font-size: 22px; /* Material Headline Small */
-    font-weight: 500; /* Regular -> Medium */
+    font-size: 22px;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 16px;
     color: var(--md-sys-color-primary);
+    display: flex;
+    align-items: center;
 }
 
 h3 {
-    font-size: 16px; /* Material Title Medium */
+    font-size: 16px;
     font-weight: 500;
     margin-top: 24px;
     margin-bottom: 12px;
@@ -92,8 +94,8 @@ h3 {
 }
 
 p {
-    font-size: 16px; /* Material Body Large */
-    line-height: 1.5; /* 24px line height */
+    font-size: 16px;
+    line-height: 1.5;
     margin-bottom: 16px;
     color: var(--md-sys-color-on-surface-variant);
 }
@@ -115,7 +117,6 @@ strong {
     color: var(--md-sys-color-on-surface);
 }
 
-/* Table */
 .table-container {
     overflow-x: auto;
     border-radius: 12px;
@@ -129,7 +130,8 @@ table {
     font-size: 14px;
 }
 
-th, td {
+th,
+td {
     text-align: left;
     padding: 12px 16px;
     border-bottom: 1px solid var(--md-sys-color-surface-variant);
@@ -150,24 +152,29 @@ tr:last-child td {
     margin-right: 8px;
 }
 
+
 .allowed {
-    color: #1b5e20; /* Green 900 */
-    background-color: #e8f5e9; /* Green 50 */
+    color: #1b5e20;
+    background-color: #e8f5e9;
     padding: 4px 8px;
     border-radius: 8px;
     font-size: 12px;
     font-weight: 500;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .prohibited {
-    color: #b71c1c; /* Red 900 */
-    background-color: #ffebee; /* Red 50 */
+    color: #b71c1c;
+    background-color: #ffebee;
     padding: 4px 8px;
     border-radius: 8px;
     font-size: 12px;
     font-weight: 500;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
 }
 
 footer {
@@ -187,7 +194,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* FAB - Floating Contact Button */
 .fab {
     position: fixed;
     bottom: 24px;
@@ -195,7 +201,7 @@ a:hover {
     background-color: var(--md-sys-color-primary-container);
     color: var(--md-sys-color-on-primary-container);
     padding: 16px 24px;
-    border-radius: 16px; /* MD3 Large FAB radius */
+    border-radius: 16px;
     box-shadow: var(--md-sys-elevation-level3);
     text-decoration: none;
     font-weight: 500;
@@ -208,4 +214,67 @@ a:hover {
     transform: translateY(-2px);
     box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.15), 0px 4px 6px 0px rgba(0, 0, 0, 0.3);
     text-decoration: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    vertical-align: middle;
+}
+
+.icon-header {
+    font-size: 28px;
+    margin-right: 8px;
+    color: var(--md-sys-color-primary);
+}
+
+
+.icon-badge {
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    th,
+    td {
+        padding: 8px 6px;
+        font-size: 13px;
+    }
+
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .fab {
+        position: static;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        margin: 24px 0;
+        box-shadow: none;
+        background-color: var(--md-sys-color-secondary-container);
+        color: var(--md-sys-color-on-secondary-container);
+    }
 }

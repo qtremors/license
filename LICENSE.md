@@ -64,7 +64,7 @@ Without prior written permission from the copyright holder, you **MAY NOT**:
     -   **Internal Business Use**: Using the software within a company or organization for business operations, even if not sold externally.
 2.  **Claim Ownership**: You cannot claim this code as your own work.
 3.  **Remove Attribution**: You cannot hide or strip the original author's credits.
-4.  **Redistribute Without Credit**: You cannot re-upload the exact same code to another platform without the original license and attribution.
+4.  **Redistribute Without Credit**: You cannot re-upload the source code to any platform (including but not limited to GitHub) without the original license and attribution.
 
 ### 5. Contributions & Ownership
 
