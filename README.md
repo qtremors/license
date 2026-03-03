@@ -8,13 +8,18 @@ This repository contains the legal text and assets for the **Tremors Source Lice
 
 ## ⚡ Quick Summary
 
-| ✅ You Can | ❌ You Cannot |
-| :--- | :--- |
-| View and study the code | Use it commercially without permission |
-| Personal, private use | Claim it as your own work |
-| Fork and modify (with credit) | Remove copyright/attribution notices |
-| Share derivative works (with credit) | Distribute strictly "as-is" without credit |
-| **Internal Evaluation & Testing** | **Internal Production Use** |
+| Action | Allowed? | Conditions |
+| :--- | :--- | :--- |
+| **View & Learn** | ✅ Yes | Free to read and study the code. |
+| **Personal Use** | ✅ Yes | Use on your own devices for private projects. |
+| **Fork & Modify** | ✅ Yes | **MUST** credit original author. |
+| **Share Derivative Works** | ✅ Yes | **MUST** credit original author. |
+| **Distribute "As-Is"** | ✅ Yes | **MUST** retain original license & attribution. |
+| **Educational Use** | ✅ Yes | Reference in tutorials, articles, or papers with credit. |
+| **Commercial Use** | ❌ **NO** | **Requires written permission.** |
+| **Internal Business Use** | ⚠️ **Evaluation Only** | **Production use requires written permission.** |
+| **Claim Ownership** | ❌ **NO** | Never allowed. |
+| **Remove Attribution** | ❌ **NO** | Never allowed. |
 
 ## 📜 Full Text
 
