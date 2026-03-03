@@ -14,8 +14,10 @@
 | **Fork & Modify** | ✅ Yes | **MUST** credit original author. |
 | **Share Derivative Works** | ✅ Yes | **MUST** credit original author. |
 | **Distribute "As-Is"** | ✅ Yes | **MUST** retain original license & attribution. |
+| **Educational Use** | ✅ Yes | Reference in tutorials, articles, or papers with credit. |
 | **Commercial Use** | ❌ **NO** | **Requires written permission.** |
 | **Internal Business Use** | ⚠️ **Evaluation Only** | **Production use requires written permission.** |
+| **Claim Ownership** | ❌ **NO** | Never allowed. |
 | **Remove Attribution** | ❌ **NO** | Never allowed. |
 
 ---
@@ -35,7 +37,7 @@
 You are granted a non-exclusive, non-transferable right to:
 
 1.  **View and Study**: Access the source code for learning and reference.
-2.  **Personal Use**: Download and run the Software regarding personal, non-commercial goals.
+2.  **Personal Use**: Download and run the Software for personal, non-commercial goals.
 3.  **Fork and Modify**: Create copies of the project for your own development.
 4.  **Create Derivative Works**: Build new projects based on this code, provided you strictly follow the **Attribution Requirements**.
 5.  **Educational Use**: Reference code snippets in tutorials, articles, or academic papers with proper credit.
@@ -91,7 +93,7 @@ The authors or copyright holders are NOT liable for any claim, damages, or other
 
 ### 8. Severability
 
-If any provision of this license is found to be unenforceable or invalid, the remaining provisions shall continue to remain in full force and effect.
+If any provision of this license is found to be unenforceable or invalid, the remaining provisions shall remain in full force and effect.
 
 ### 9. Trademark
 
